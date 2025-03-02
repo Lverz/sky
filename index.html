@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lver</title>
+    <meta content="Jes" property="og:title">
+    <meta content="Jes's bio website" property="og:description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&amp;family=Josefin+Sans:wght@500&amp;display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/04c5cc98c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    
+    <div class="overlay" id="volumeWarning">
+        <h4 style="font-size: 12pt;">&gt; Volume Warning! <br> --- Continue --- &lt;</h4>
+    </div>
+    
+    <div id="actualContent">
+        <div id="particles-js"></div>
+        
+        <video loop style="display: none;" id="bgVideo">
+            <source src="videos/(song).mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        
+        <div class="container">
+            <div class="avatar-container">
+                <img src="images/profile.jpg" alt="Avatar" class="avatar">
+            </div>
+            
+            <p class="greeting">Hello there!</p>
+            <p class="greeting-rainbow">I am Lver</p>
+            <p class="details"><b>Male: He/Him/His</b><br>I am Lver, I'm from the US and a permenant resident there.</p>
+            
+            <div class="bottom-container">
+                <div class="icon-container">
+                    <a href="https://github.com/lverx" class="icon-circle" target="_blank">
+                        <i class="fa-brands fa-github fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/particles.js"></script>
+    <script src="js/app-particles.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/handleclick.js"></script>
+</body>
+</html>
